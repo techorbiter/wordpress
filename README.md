@@ -12,7 +12,6 @@ We have chosen these plugins for their effectiveness, minimal footprint, and cle
 1. Sybre Waaijer's The SEO Framework - clean, simple, and feature packed SEO plugin
 2. Ollie Jones's Index MySQL for Speed - adds indexes to important WordPress tables to vastly improve performance in In addition, custom PHP tweaks are applied for better performance and user experience.
 3. Automattic's Two Factor - add TOTP based two factor authentication to WordPress
-4. Andrew Norcross's Comment Blacklist Manager - automatically updates the blacklisted keys list from splorp's repo
-5. 10up's Simple Local Avatars - generate avatars on-site without connecting to Gravatar
-6. Nick Diego's Block Visibility - hide or show WordPress blocks on frontend based on a number of rules
+4. 10up's Simple Local Avatars - generate avatars on-site without connecting to Gravatar
+5. Nick Diego's Block Visibility - hide or show WordPress blocks on frontend based on a number of rules
 
