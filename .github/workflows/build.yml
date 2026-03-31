@@ -61,10 +61,6 @@ jobs:
           # Always pull latest base image
           pull: true
 
-          # Build cache (huge speed improvement)
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-
       - name: Delete old packages
         uses: actions/delete-package-versions@v5
         with:
