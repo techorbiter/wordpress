@@ -22,4 +22,4 @@ RUN --mount=type=bind,from=ghcr.io/php/pie:bin,source=/pie,target=/usr/local/bin
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false unzip; \
     rm -rf /var/lib/apt/lists/*;
 
-COPY config/* /usr/local/etc/php-fpm.d/
+COPY config/* $PHP_INI_DIR/conf.d/
